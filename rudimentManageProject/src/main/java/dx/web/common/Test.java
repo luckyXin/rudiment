@@ -5,8 +5,8 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 public class Test {
-
-	public static void main(String[] args) throws IllegalArgumentException, InstantiationException, IllegalAccessException, InvocationTargetException {
+	public static void main(String[] args) throws IllegalArgumentException, 
+	InstantiationException, IllegalAccessException, InvocationTargetException {
 
 		Constructor<?> constructor = ReflectionObject.class.getDeclaredConstructors()[0];
 		constructor.setAccessible(true);
