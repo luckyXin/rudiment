@@ -17,7 +17,7 @@ public class UserInfoController implements ControllerBase{
 
 	public ModelAndView index(HttpServletRequest request, HttpServletResponse response) {
 		
-		return new ModelAndView("/userinfo/userInfoIndex");
+		return new ModelAndView("/user/userInfoIndex");
 	}
 
 	public ModelAndView show(HttpServletRequest request, HttpServletResponse response, String id) throws Exception {

@@ -10,7 +10,7 @@
                         http://www.springframework.org/schema/context/spring-context-3.0.xsd">
                         
     <!-- 自动搜索@Controller标注的类 -->  
-    <context:component-scan base-package="com.**.controller"/>  
+    <context:component-scan base-package="dx.**.controller"/>  
     
     <!-- 激活@RequestMapping annotation -->
 	<bean class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping" />
