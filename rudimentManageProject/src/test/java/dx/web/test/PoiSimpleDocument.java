@@ -1,4 +1,4 @@
-package dx.web.common;
+package dx.web.test;
 
 import java.io.FileOutputStream;
 

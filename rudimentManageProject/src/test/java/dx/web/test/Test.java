@@ -1,4 +1,4 @@
-package dx.web.common;
+package dx.web.test;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
