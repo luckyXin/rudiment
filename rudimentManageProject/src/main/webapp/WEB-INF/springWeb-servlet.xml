@@ -19,7 +19,7 @@
 	<!-- 默认视图 -->
 	<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">  
         <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>  
-        <property name="prefix" value="/pages"/>  
+        <property name="prefix" value="/views"/>  
         <property name="suffix" value=".jsp"></property>  
     </bean>
     
