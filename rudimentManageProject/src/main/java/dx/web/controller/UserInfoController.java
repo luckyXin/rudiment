@@ -10,6 +10,10 @@ import org.springframework.web.servlet.ModelAndView;
 import dx.web.common.interfaces.ControllerBase;
 import dx.web.model.User;
 
+/**
+ * 用户控制层
+ * @author DengXin
+ */
 @Controller
 @RequestMapping("/userInfo")
 public class UserInfoController implements ControllerBase{
