@@ -134,8 +134,6 @@
 			<version>1.2.9</version>
 		</dependency>
 
-
-
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-ibatis</artifactId>
@@ -171,6 +169,16 @@
 			<artifactId>xmlbeans</artifactId>
 			<version>2.6.0</version>
 			<classifier>source</classifier>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.10-beta2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml-schemas</artifactId>
+			<version>3.10-beta2</version>
 		</dependency>
 	</dependencies>
 	<build>
