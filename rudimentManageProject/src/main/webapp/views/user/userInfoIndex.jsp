@@ -5,15 +5,14 @@
 <head>
 <meta charset="UTF-8">
 <title>列表</title>
-	<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/resource/js/jquery-easyui-1.3.4/themes/default/easyui.css">
-	<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/resource/js/jquery-easyui-1.3.4/themes/icon.css">
-	<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/resource/js/jquery-easyui-1.3.4/demo.css">
-	<script type="text/javascript" src="<%=request.getContextPath()%>/resource/js/jquery-easyui-1.3.4/jquery.min.js"></script>
-	<script type="text/javascript" src="<%=request.getContextPath()%>/resource/js/jquery-easyui-1.3.4/jquery.easyui.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/resources/js/jquery-easyui-1.3.4/themes/default/easyui.css">
+	<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/resources/js/jquery-easyui-1.3.4/themes/icon.css">
+	<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/resources/js/jquery-easyui-1.3.4/demo.css">
+	<script type="text/javascript" src="<%=request.getContextPath()%>/resources/js/jquery-easyui-1.3.4/jquery.min.js"></script>
+	<script type="text/javascript" src="<%=request.getContextPath()%>/resources/js/jquery-easyui-1.3.4/jquery.easyui.min.js"></script>
 </head>
 <body>
-   <table class="easyui-datagrid" title="Basic DataGrid" style="width:700px;height:250px"
-			data-options="singleSelect:true,collapsible:true">
+   <table class="easyui-datagrid" title="Basic DataGrid" style="width:700px;height:250px">
 		<thead>
 			<tr>
 				<th data-options="field:'itemid',width:80">Item ID</th>
@@ -25,7 +24,5 @@
 			</tr>
 		</thead>
 	</table>
-	
-	<img  src="<%=request.getContextPath()%>/resource/image/logo_bg.jpg">
 </body>
 </html>
