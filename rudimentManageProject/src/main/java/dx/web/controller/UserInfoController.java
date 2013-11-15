@@ -18,8 +18,6 @@ import dx.web.model.User;
 @RequestMapping("/userInfo")
 public class UserInfoController implements ControllerBase{
 	
-	private final String LIST_ACTION = "redirect:/userinfo";
-
 	/**
 	 * 列表
 	 */
